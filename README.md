@@ -26,23 +26,37 @@ Visual components and Python
 
 ## Program
 Developed by : R.Monish
+
 Reg no : 212223220061
 
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
+
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
+
 ser_time3=float(input("Enter the mean  inter service time of Lathe Machine 3 (in secs) :  "))
+
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
+
 lam=1/arr_time
+
 mu1=1/(ser_time1+Robot_time)
+
 mu2=1/(ser_time2+Robot_time)
 mu3=1/(ser_time3+Robot_time)
+
 print("-----------------------------------------------------------------------")
+
 print("Series Queues with infinite capacity- Open Jackson Network")
+
 print("-----------------------------------------------------------------------")
+
 if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
+
     Ls1=lam/(mu1-lam)
-    Ls2=lam/(mu2-lam)
+    
+Ls2=lam/(mu2-lam)
+ 
     Ls3=lam/(mu3-lam)
     Ls=Ls1+Ls2+Ls3
     Lq1=Ls1-lam/mu1
@@ -68,5 +82,7 @@ print("----------------------------------------------------------------------")
 
 
 ## Output
+![image](https://github.com/monishr288/Open-Jacson-Networks/assets/147474049/1670f8c7-a42f-4dea-a214-7ae0eb376c92)
+
 
 ## Result
