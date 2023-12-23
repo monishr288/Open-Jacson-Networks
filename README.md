@@ -44,7 +44,7 @@ print("-----------------------------------------------------------------------")
 if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
     Ls1=lam/(mu1-lam)
     Ls2=lam/(mu2-lam)
-     Ls3=lam/(mu3-lam)
+    Ls3=lam/(mu3-lam)
     Ls=Ls1+Ls2+Ls3
     Lq1=Ls1-lam/mu1
     Lq2=Ls2-lam/mu2
@@ -66,7 +66,6 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("----------------------------------------------------------------------")
-
 
 ## Output
 ![image](https://github.com/monishr288/Open-Jacson-Networks/assets/147474049/1670f8c7-a42f-4dea-a214-7ae0eb376c92)
