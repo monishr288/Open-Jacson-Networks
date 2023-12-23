@@ -64,7 +64,7 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
     print("Average waiting time of an object in the conveyor S3 : %0.2f secs"%Wq3)
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
-print("----------------------------------------------------------------------")
+print("----------------------------------------------------------------------").
 ```
 
     
